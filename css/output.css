@@ -1,0 +1,11 @@
+body {
+  background-color: #343f72;
+}
+
+h1, h2, p {
+  background-color: #b200f8;
+  border-radius: 12px;
+  border: 5px solid black;
+}
+
+/*# sourceMappingURL=output.css.map */

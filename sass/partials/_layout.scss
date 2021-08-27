@@ -1,0 +1,14 @@
+@use "variables";
+@use "mixin";
+
+
+body {
+    background-color: variables.$periwinkel;
+}
+
+h1, h2, p {
+    background-color: variables.$hei;
+    @include mixin.customBorder(12px);
+}
+
+
