@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 body {
   background-color: #c4c8db;
 }
@@ -9,6 +11,17 @@ h1, h2, p {
 
 h1 {
   font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+p, h2 {
+  font-family: "poppins", serif;
+  font-weight: bold;
+}
+
+mark {
+  background-color: #c2ecff;
+  color: black;
 }
 
 button {
