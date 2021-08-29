@@ -3,12 +3,29 @@
 
 
 body {
-    background-color: variables.$periwinkel;
+    background-color: variables.$bak;
 }
 
 h1, h2, p {
-    background-color: variables.$hei;
-    @include mixin.customBorder(12px);
+    color: variables.$periwinkel;
+   margin: 15px 40px 0px 40px;
 }
 
+h1 {
+    font-size: 50px
+}
 
+button {
+    @include mixin.customBtn;
+}
+
+.box {
+    @include mixin.boxBorder;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

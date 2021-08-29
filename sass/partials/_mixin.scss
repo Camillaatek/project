@@ -2,3 +2,32 @@
     border-radius: $radius;
     border: 5px solid black;
 }
+
+@mixin customBtn {
+    display: flex;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: #1b4479;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@mixin boxBorder {
+        border: 10px solid #c4c8db5b;
+        background-color: white;
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    
+}

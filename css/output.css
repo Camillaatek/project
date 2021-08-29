@@ -1,11 +1,49 @@
 body {
-  background-color: #343f72;
+  background-color: #c4c8db;
 }
 
 h1, h2, p {
-  background-color: #b200f8;
-  border-radius: 12px;
-  border: 5px solid black;
+  color: #1b4479;
+  margin: 15px 40px 0px 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: #1b4479;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.box {
+  border: 10px solid #c4c8db5b;
+  background-color: white;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*# sourceMappingURL=output.css.map */
